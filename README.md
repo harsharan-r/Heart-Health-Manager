@@ -15,6 +15,12 @@ Full *Devpost* submission can be found at: [Devpost](https://devpost.com/softwar
 - **Flask** - To integrate the machine learning model and the databases onto the website so it can interact with the Front End of the website, we used Flask. 
 
 ### How To Use
+
+## Prequsites
+```
+python
+```
+
 1. First download the repository
 2. Now, run `main.py`
 3. Go to: http://127.0.0.1:5000/
