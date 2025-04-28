@@ -1,27 +1,37 @@
 # Heart Health Manager
-## Hackathon project for Hack::Peel 2022
-According to the [World Health Organization](https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death) cardiovascular disease is the world's leading cause of death. More specifically, strokes are the 2nd leading cause of death globally. We wanted to create a project that helps tackle this issue. As a result, we created a web-app that uses Machine Learning to lower the risk of getting a stroke.
 
+**[Hackathon Project for Hack::Peel 2022](https://devpost.com/software/heart-stroke-manager)**
 
-Full *Devpost* submission can be found at: [Devpost](https://devpost.com/software/heart-stroke-manager)
+Cardiovascular diseases are the leading cause of death globally. In response, we developed **Heart Health Manager**, a web application designed to help reduce the risk of heart disease using machine learning.
 
+## Demo
+Click below to see a demo of the app and our pitch for Hack::Peel 2022. Also check out our [devpost](https://devpost.com/software/heart-stroke-manager) for more info.
 
-### Main Tools Used
-- **HTML, CSS and JS** - Used to design the front end of the website.
-- **Machine Learning** -  For the stroke prediction, we trained our very own machine learning model using [stroke data](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset) on Kaggle. We then used a Jupyter Notebook and the Scikit Learn library to create the machine learning model. If interested, view the model training process [here](https://github.com/harsharan-r/Heart-Stroke-Manager/blob/master/Heart_Health_Website/Machine%20Learning%20Model/trainingstrokemodel.ipynb). 
+[![thumbnail](https://github.com/user-attachments/assets/79cc9e07-d60c-43a8-96cb-f8b95cf77fde)](https://youtu.be/HC0wK17l1-Q?si=cce1MsLOUwVN2WPJ)
 
-- **SQL** - To store user data we created a SQL database which allows us to access user data from any file in a organized manner
+## Key Features
 
-- **Flask** - To integrate the machine learning model and the databases onto the website so it can interact with the Front End of the website, we used Flask. 
+- **Stroke Prediction Model:** Trained on Kaggle stroke data, our custom machine learning model uses Scikit Learn to predict stroke risk based on user inputs.
+- **User Data Management:** A SQL database stores user information securely, ensuring efficient access and retrieval.
+- **Web Interface:** It is built with HTML, CSS, and JavaScript and provides an intuitive and responsive front-end for users to interact with the application.
 
-### How To Use
+## Technologies Used
 
-## Prequsites
-```
-python
-```
+- **HTML, CSS, JS:** For designing the front end.
+- **Machine Learning:** Custom stroke prediction model using data from Kaggle and trained with Scikit Learn.
+- **SQL:** For organizing and storing user data.
+- **Flask:** To integrate the machine learning model and database with the website's backend.
 
-1. First download the repository
-2. Now, run `main.py`
-3. Go to: http://127.0.0.1:5000/
-4. You should now be able to see the home page of the website
+## Installation and Setup
+
+### Prerequisites
+- Python
+
+### Steps to Run
+1. Clone the repository.
+2. Navigate to the project directory and run `main.py`:
+   """
+   python main.py
+   """
+3. Open a browser and visit: [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
+4. The home page of the Heart Health Manager web application should now be displayed.
